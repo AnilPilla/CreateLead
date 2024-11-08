@@ -1,6 +1,6 @@
 let captchaChecked = false;
 
-function beforeSubmit() {
+function beforeSubmit(event) {
   debugger;
   if (captchaChecked) {
     let outputDate = document.querySelector(".outputDate");
